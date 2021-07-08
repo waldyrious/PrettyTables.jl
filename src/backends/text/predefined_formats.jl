@@ -119,8 +119,14 @@ const unicode_rounded = TextFormat(
 )
 
 const matrix = TextFormat(
-    left_intersection   = '│',
-    right_intersection  = '│',
+    up_left_corner      = '⎡',
+    left_intersection   = '⎜',
+    left_border         = '⎜',
+    bottom_left_corner  = '⎣',
+    up_right_corner     = '⎤',
+    right_border        = '⎥',
+    right_intersection  = '⎥',
+    bottom_right_corner = '⎦',
     row                 = ' ',
     vlines              = [:begin,:end],
     hlines              = [:begin,:end]

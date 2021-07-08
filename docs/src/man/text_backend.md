@@ -386,11 +386,9 @@ The following table formats are available when using the text back-end:
 `matrix`
 
 ```
-┌                     ┐
-│ 1   false   1.0   1 │
-│ 2    true   2.0   2 │
-│ 3   false   3.0   3 │
-└                     ┘
+⎡ 1   false   1.0   1 ⎤
+⎜ 2    true   2.0   2 ⎥
+⎣ 3   false   3.0   3 ⎦
 ```
 
 !!! info
